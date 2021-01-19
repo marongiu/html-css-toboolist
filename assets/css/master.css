@@ -1,0 +1,176 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #f6f8f9;
+}
+
+header{
+  height: 100px;
+  background: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+}
+
+.immagine{
+  height: 100%;
+  vertical-align: middle;
+}
+
+#testo{
+  font-size: 40px;
+  font-family: Verdana;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.contenitore{
+  margin: auto;
+  margin-top: 50px;
+  width: 70%;
+  height: 650px;
+  background: white;
+}
+
+.button{
+  padding-top: 1%;
+  padding-left: 4%;
+  padding-bottom: 1%;
+}
+
+#bottone1{
+  background: #47adf1;
+  color: white;
+  border: none;
+  padding: 6px 6px;
+  border-radius: 7px;
+}
+
+#bottone2{
+  margin-left: 5px;
+  background: #FFFF;
+  border: 1px solid #d6dbde;
+  color: grey;
+  padding: 6px 6px;
+  border-radius: 7px;
+}
+
+hr{
+  color: #f6f8f9;
+}
+
+.lista{
+  padding-top: 1%;
+  padding-left: 4%;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  margin-top: 15px;
+}
+
+strong{
+  font-size: 23px;
+}
+
+/* Inizio Lista */
+
+.check{
+  display: inline-block;
+  border: 0.5px solid #77c9b7;
+  border-radius: 50%;
+  padding: 3px 4px 4px 4px;
+  font-size: 7px;
+}
+
+.cross{
+  display: inline-block;
+  border: 0.5px solid red;
+  border-radius: 50%;
+  padding: 3px 4px 4px 4px;
+  font-size: 7px;
+
+}
+
+.down::before{
+  content: '\25BE';
+}
+.check::before{
+  content: '\2713';
+  color: green;
+}
+
+.cross::before{
+  content: "\2718";
+  color: red;
+}
+
+/* Colore bottoni e dimensione */
+
+.editorial{
+  border: none;
+  background: #45abea;
+  border-radius:10px;
+  padding: 5px 5px 5px 5px;
+  font-size: 12px;
+  color: white;
+}
+
+
+.goal{
+  border: none;
+  background: #9c72e4;
+  border-radius:10px;
+  padding: 5px 5px 5px 5px;
+  font-size: 12px;
+  color: white;
+}
+
+.recruiting{
+  border: none;
+  background: #64c0a9;
+  border-radius:10px;
+  padding: 5px 5px 5px 5px;
+  font-size: 12px;
+  color: white;
+}
+
+.mobile{
+  border: none;
+  background: #FFA500;
+  border-radius:10px;
+  padding: 5px 5px 5px 5px;
+  font-size: 12px;
+  color: white;
+}
+
+.website{
+  border: none;
+  background: #d863a1;
+  border-radius:10px;
+  padding: 5px 5px 5px 5px;
+  font-size: 12px;
+  color: white;
+}
+
+.sales{
+  border: none;
+  background: #b0c926;
+  border-radius:10px;
+  padding: 5px 5px 5px 5px;
+  font-size: 12px;
+  color: white;
+}
+
+/* Margine lato sinistro lista */
+.list{
+  margin-left: 10px;
+  font-size: 18px;
+}
